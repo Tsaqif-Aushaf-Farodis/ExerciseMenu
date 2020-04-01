@@ -30,14 +30,14 @@
             android:layout_marginStart="5dp">
 
             <TextView
-                android:id="@+id/persegi"
+                android:id="@+id/tvPersegi"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Menghitung Persegi"
                 android:textSize="18dp"/>
 
             <TextView
-                android:id="@+id/lingkaran"
+                android:id="@+id/tvLingkaran"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
@@ -45,7 +45,7 @@
                 android:textSize="18dp"/>
 
             <TextView
-                android:id="@+id/persegiPanjang"
+                android:id="@+id/tvPersegiPanjang"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
@@ -53,7 +53,7 @@
                 android:textSize="18dp"/>
 
             <TextView
-                android:id="@+id/segitiga"
+                android:id="@+id/tvSegitiga"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
@@ -61,7 +61,7 @@
                 android:textSize="18dp"/>
 
             <TextView
-                android:id="@+id/trapesium"
+                android:id="@+id/tvTrapesium"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
