@@ -20,8 +20,8 @@
             android:text="Menu Hitung Bangun Datar"
             android:textAlignment="center"
             android:textColor="@color/judul"
-            android:textSize="25sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="24dp"/>
 
         <TableLayout
             android:layout_width="match_parent"
@@ -34,40 +34,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Menghitung Persegi"
-                android:textColor="@color/label"
-                android:textSize="20sp"/>
+                android:textSize="18dp"/>
 
             <TextView
                 android:id="@+id/lingkaran"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
                 android:text="Menghitung Lingkaran"
-                android:textColor="@color/label"
-                android:textSize="20sp"/>
+                android:textSize="18dp"/>
 
             <TextView
                 android:id="@+id/persegiPanjang"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
                 android:text="Menghitung Persegi Panjang"
-                android:textColor="@color/label"
-                android:textSize="20sp"/>
+                android:textSize="18dp"/>
 
             <TextView
                 android:id="@+id/segitiga"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
                 android:text="Menghitung Segitiga"
-                android:textColor="@color/label"
-                android:textSize="20sp"/>
+                android:textSize="18dp"/>
 
             <TextView
                 android:id="@+id/trapesium"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
                 android:text="Menghitung Trapesium"
-                android:textColor="@color/label"
-                android:textSize="20sp"/>
+                android:textSize="18dp"/>
         </TableLayout>
     </LinearLayout>
 
