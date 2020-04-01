@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuHitung">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorLayout">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Menu Hitung Bangun Datar"
+            android:textAlignment="center"
+            android:textColor="@color/judul"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/persegi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Menghitung Persegi"
+                android:textColor="@color/label"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/lingkaran"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Menghitung Lingkaran"
+                android:textColor="@color/label"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/persegiPanjang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Menghitung Persegi Panjang"
+                android:textColor="@color/label"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/segitiga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Menghitung Segitiga"
+                android:textColor="@color/label"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/trapesium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Menghitung Trapesium"
+                android:textColor="@color/label"
+                android:textSize="20sp"/>
+        </TableLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
