@@ -34,7 +34,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Menghitung Persegi"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:clickable="true"
+                android:onClick="showMenu"/>
 
             <TextView
                 android:id="@+id/tvLingkaran"
@@ -42,7 +44,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
                 android:text="Menghitung Lingkaran"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:clickable="true"
+                android:onClick="showMenu"/>
 
             <TextView
                 android:id="@+id/tvPersegiPanjang"
@@ -50,7 +54,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
                 android:text="Menghitung Persegi Panjang"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:clickable="true"
+                android:onClick="showMenu"/>
 
             <TextView
                 android:id="@+id/tvSegitiga"
@@ -58,7 +64,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
                 android:text="Menghitung Segitiga"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:clickable="true"
+                android:onClick="showMenu"/>
 
             <TextView
                 android:id="@+id/tvTrapesium"
@@ -66,7 +74,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
                 android:text="Menghitung Trapesium"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:clickable="true"
+                android:onClick="showMenu"/>
         </TableLayout>
     </LinearLayout>
 

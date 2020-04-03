@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 username   = addUsername.getText().toString();
                 password = addPassword.getText().toString();
 
-                if (username.equals("admin")||password.equals("123")){
+                if (username.equals("admin") && password.equals("123")){
                     //Pindah activity
                     Intent i = new Intent(getApplicationContext(),MenuHitung.class);
                     startActivity(i);
