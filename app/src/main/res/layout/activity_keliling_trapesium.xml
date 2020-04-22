@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/trapesium"
+            android:src="@drawable/trapesiumsamakaki"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             tools:ignore="MissingConstraints" />
@@ -98,7 +98,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Masukkan Tinggi"
+                    android:text="Masukkan Sisi Miring"
                     android:textColor="@color/label"/>
 
                 <TextView
@@ -110,7 +110,7 @@
                     android:textColor="@color/label" />
 
                 <EditText
-                    android:id="@+id/addTKeliling"
+                    android:id="@+id/addMKeliling"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"

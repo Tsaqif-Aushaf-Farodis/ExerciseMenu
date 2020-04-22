@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
-            android:src="@drawable/trapesium"
+            android:src="@drawable/trapesiumsamakaki"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             tools:ignore="MissingConstraints" />
