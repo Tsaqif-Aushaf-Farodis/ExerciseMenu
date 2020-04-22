@@ -34,7 +34,7 @@ public class KelilingLingkaran extends AppCompatActivity {
                     double keliling = 2 * 3.14 * jarijari;
                     //double keliling2 = 2 * 22/7 * jarijari;
                     //double keliling3 = 2 * Math.PI * jarijari;
-                    tv_HasilKelilingLingkaran.setText("Hasil Keliling Lingkaran Dengan Jari-jari: "+jarijari+" adalah: "+keliling+"");
+                    tv_HasilKelilingLingkaran.setText("Hasil keliling lingkaran dengan jari-jari: "+jarijari+" adalah: "+keliling+"");
                 }
             }
         });
