@@ -8,7 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
     TextView tv_persegi, tv_lingkaran, tv_persegiPanjang, tv_segitiga, tv_trapesium;
@@ -19,11 +18,11 @@ public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_hitung);
 
-        tv_persegi = (TextView) findViewById(R.id.tvPersegi);
-        tv_lingkaran = (TextView) findViewById(R.id.tvLingkaran);
-        tv_persegiPanjang = (TextView) findViewById(R.id.tvPersegiPanjang);
-        tv_segitiga = (TextView) findViewById(R.id.tvSegitiga);
-        tv_trapesium = (TextView) findViewById(R.id.tvTrapesium);
+        tv_persegi = findViewById(R.id.tvPersegi);
+        tv_lingkaran = findViewById(R.id.tvLingkaran);
+        tv_persegiPanjang = findViewById(R.id.tvPersegiPanjang);
+        tv_segitiga = findViewById(R.id.tvSegitiga);
+        tv_trapesium = findViewById(R.id.tvTrapesium);
 
         tv_persegi.setOnClickListener(new View.OnClickListener() {
             @Override

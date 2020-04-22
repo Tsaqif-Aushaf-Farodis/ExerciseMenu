@@ -34,9 +34,7 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginLeft="5dp">
+            android:layout_margin="20dp">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -44,23 +42,22 @@
                 android:layout_gravity="center">
 
                 <TextView
-                    android:layout_width="190dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Masukkan Panjang a"
-                    android:textColor="@color/label"
-                    android:textSize="20sp"/>
+                    android:textColor="@color/label"/>
 
                 <TextView
-                    android:layout_width="10dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:text=":"
-                    android:textColor="@color/label"
-                    android:textSize="20sp" />
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/label" />
 
                 <EditText
                     android:id="@+id/addPAKeliling"
-                    android:layout_width="170dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="number"
@@ -72,23 +69,22 @@
                 android:layout_gravity="center">
 
                 <TextView
-                    android:layout_width="190dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Masukkan Panjang b"
-                    android:textColor="@color/label"
-                    android:textSize="20sp"/>
+                    android:textColor="@color/label"/>
 
                 <TextView
-                    android:layout_width="10dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:text=":"
-                    android:textColor="@color/label"
-                    android:textSize="20sp" />
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/label" />
 
                 <EditText
                     android:id="@+id/addPBKeliling"
-                    android:layout_width="170dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="number"
@@ -100,23 +96,22 @@
                 android:layout_gravity="center">
 
                 <TextView
-                    android:layout_width="190dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Masukkan Tinggi"
-                    android:textColor="@color/label"
-                    android:textSize="20sp"/>
+                    android:textColor="@color/label"/>
 
                 <TextView
-                    android:layout_width="10dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:text=":"
-                    android:textColor="@color/label"
-                    android:textSize="20sp" />
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/label" />
 
                 <EditText
                     android:id="@+id/addTKeliling"
-                    android:layout_width="170dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="number"
@@ -131,7 +126,7 @@
             android:layout_marginTop="30dp"
             android:layout_gravity="center"
             android:background="@color/btn2"
-            android:text="HITUNG LUAS" />
+            android:text="HITUNG KELILING" />
 
         <TextView
             android:id="@+id/hasilKelilingTrapesium"
