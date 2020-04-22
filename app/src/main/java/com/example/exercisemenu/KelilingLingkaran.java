@@ -26,8 +26,7 @@ public class KelilingLingkaran extends AppCompatActivity {
         btn_KelilingLingkaran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(btn_KelilingLingkaran.getText().toString().trim().isEmpty() ||
-                et_JariJari.getText().toString().trim().isEmpty()) {
+                if(et_JariJari.getText().toString().trim().isEmpty()) {
                     Toast.makeText(KelilingLingkaran.this,
                             "Data Tidak Boleh Kosong", Toast.LENGTH_LONG).show();
                 }else {

@@ -26,8 +26,7 @@ public class KelilingPersegi extends AppCompatActivity {
         btn_KelilingPersegi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(btn_KelilingPersegi.getText().toString().trim().isEmpty() ||
-                        et_sisi.getText().toString().trim().isEmpty()) {
+                if(et_sisi.getText().toString().trim().isEmpty()) {
                     Toast.makeText(KelilingPersegi.this,
                             "Data Tidak Boleh Kosong", Toast.LENGTH_LONG).show();
                 }else {
