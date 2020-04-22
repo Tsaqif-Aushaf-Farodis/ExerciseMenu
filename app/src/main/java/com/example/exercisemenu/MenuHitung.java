@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
     TextView tv_persegi, tv_lingkaran, tv_persegiPanjang, tv_segitiga, tv_trapesium;
-    String persegi, lingkaran, persegiPanjang, segitiga, trapesium;
     int kode;
 
     @Override
@@ -85,16 +84,41 @@ public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuIte
     @Override
     public boolean onMenuItemClick(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.tvPersegi:
-                if (item.getItemId() == R.id.luas){
-                    Intent luasPersegi = new Intent(getApplicationContext(), LuasPersegi.class);
-                    startActivity(luasPersegi);
-                }else{
-                    Intent kelilingPersegi = new Intent(getApplicationContext(), KelilingPersegi.class);
-                    startActivity(kelilingPersegi);
-                }
-            default:
-                return false;
-        }
+            case R.id.luas:
+                if (kode==1){
+                    Intent intent = new Intent(getApplicationContext(), LuasPersegi.class);
+                    startActivity(intent);
+                }else if (kode==2){
+                    Intent intent = new Intent(getApplicationContext(), LuasLingkaran.class);
+                    startActivity(intent);
+                }else if (kode==3){
+                    Intent intent = new Intent(getApplicationContext(), LuasPersegiPanjang.class);
+                    startActivity(intent);
+                }else if (kode==4){
+                    Intent intent = new Intent(getApplicationContext(), LuasSegitiga.class);
+                    startActivity(intent);
+                }else {
+                    Intent intent = new Intent(getApplicationContext(), LuasTrapesium.class);
+                    startActivity(intent);
+                }break;
+
+            case R.id.keliling:
+                if (kode==1){
+                    Intent intent = new Intent(getApplicationContext(), KelilingPersegi.class);
+                    startActivity(intent);
+                }else if (kode==2){
+                    Intent intent = new Intent(getApplicationContext(), KelilingLingkaran.class);
+                    startActivity(intent);
+                }else if (kode==3){
+                    Intent intent = new Intent(getApplicationContext(), KelilingPersegiPanjang.class);
+                    startActivity(intent);
+                }else if (kode==4){
+                    Intent intent = new Intent(getApplicationContext(), KelilingSegitiga.class);
+                    startActivity(intent);
+                }else {
+                    Intent intent = new Intent(getApplicationContext(), KelilingTrapesium.class);
+                    startActivity(intent);
+                }break;
+        }return false;
     }
 }
