@@ -30,13 +30,15 @@ public class MainActivity extends AppCompatActivity {
                 username   = addUsername.getText().toString();
                 password = addPassword.getText().toString();
 
-                if (username.equals("admin") && password.equals("123")){
+                if (username.equals("") || password.equals("")){
                     //Pindah activity
-                    Intent i = new Intent(getApplicationContext(),MenuHitung.class);
-                    startActivity(i);
-                }else{
                     Toast.makeText(getApplicationContext(),
                             "Login Failed", Toast.LENGTH_LONG).show();
+                }else{
+                    Toast.makeText(getApplicationContext(),
+                            "Login Success", Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(getApplicationContext(),MenuHitung.class);
+                    startActivity(i);
                 }
             }
         });
