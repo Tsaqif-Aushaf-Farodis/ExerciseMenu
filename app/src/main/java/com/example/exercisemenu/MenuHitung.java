@@ -6,11 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.PopupMenu;
-import android.widget.TextView;
 
 public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
-    TextView tv_persegi, tv_lingkaran, tv_persegiPanjang, tv_segitiga, tv_trapesium;
+    Button persegi, lingkaran, persegiPanjang, segitiga, trapesium;
     int kode;
 
     @Override
@@ -18,13 +18,13 @@ public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_hitung);
 
-        tv_persegi = findViewById(R.id.tvPersegi);
-        tv_lingkaran = findViewById(R.id.tvLingkaran);
-        tv_persegiPanjang = findViewById(R.id.tvPersegiPanjang);
-        tv_segitiga = findViewById(R.id.tvSegitiga);
-        tv_trapesium = findViewById(R.id.tvTrapesium);
+        persegi = findViewById(R.id.tvPersegi);
+        lingkaran = findViewById(R.id.tvLingkaran);
+        persegiPanjang = findViewById(R.id.tvPersegiPanjang);
+        segitiga = findViewById(R.id.tvSegitiga);
+        trapesium = findViewById(R.id.tvTrapesium);
 
-        tv_persegi.setOnClickListener(new View.OnClickListener() {
+        persegi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 kode=1;
@@ -35,7 +35,7 @@ public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuIte
             }
         });
 
-        tv_lingkaran.setOnClickListener(new View.OnClickListener() {
+        lingkaran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 kode=2;
@@ -46,7 +46,7 @@ public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuIte
             }
         });
 
-        tv_persegiPanjang.setOnClickListener(new View.OnClickListener() {
+        persegiPanjang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 kode=3;
@@ -57,7 +57,7 @@ public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuIte
             }
         });
 
-        tv_segitiga.setOnClickListener(new View.OnClickListener() {
+        segitiga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 kode=4;
@@ -68,7 +68,7 @@ public class MenuHitung extends AppCompatActivity implements PopupMenu.OnMenuIte
             }
         });
 
-        tv_trapesium.setOnClickListener(new View.OnClickListener() {
+        trapesium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 kode=5;
