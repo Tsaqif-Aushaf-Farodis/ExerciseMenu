@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:text="Luas Trapesium"
+            android:fontFamily="serif"
             android:textAlignment="center"
             android:textColor="@color/judul"
             android:textStyle="bold"
@@ -44,6 +45,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Masukkan Panjang a"
+                    android:fontFamily="serif"
                     android:textColor="@color/label"/>
 
                 <TextView
@@ -71,6 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Masukkan Panjang b"
+                    android:fontFamily="serif"
                     android:textColor="@color/label"/>
 
                 <TextView
@@ -98,6 +101,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Masukkan Tinggi"
+                    android:fontFamily="serif"
                     android:textColor="@color/label"/>
 
                 <TextView
@@ -124,7 +128,8 @@
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
             android:layout_gravity="center"
-            android:background="@color/btn2"
+            android:background="@drawable/button3"
+            android:fontFamily="serif"
             android:text="HITUNG LUAS" />
 
         <TextView
@@ -135,7 +140,7 @@
             android:text="Hasil"
             android:textAlignment="center"
             android:textColor="@color/judul"
-            android:textStyle="bold"
+            android:fontFamily="serif"
             android:textSize="24dp"/>
     </LinearLayout>
 
