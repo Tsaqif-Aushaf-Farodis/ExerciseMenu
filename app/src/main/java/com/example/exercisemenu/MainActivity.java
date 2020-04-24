@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                             "Login Failed", Toast.LENGTH_LONG).show();
                 }else{
                     Toast.makeText(getApplicationContext(),
-                            "Login Success", Toast.LENGTH_SHORT).show();
+                            "Selamat Datang "+username+"", Toast.LENGTH_LONG).show();
                     Intent i = new Intent(getApplicationContext(),MenuHitung.class);
                     startActivity(i);
                 }
