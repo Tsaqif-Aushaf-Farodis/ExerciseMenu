@@ -129,6 +129,7 @@
             android:layout_gravity="center"
             android:background="@drawable/button"
             android:textColor="#ffffff"
+            android:typeface="serif"
             android:text="SIGN-IN" />
 
     </LinearLayout>
