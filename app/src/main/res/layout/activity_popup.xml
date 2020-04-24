@@ -32,7 +32,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/bntluas"
+                android:id="@+id/btnluas"
                 android:layout_width="110dp"
                 android:layout_height="50dp"
                 android:layout_gravity="end"
