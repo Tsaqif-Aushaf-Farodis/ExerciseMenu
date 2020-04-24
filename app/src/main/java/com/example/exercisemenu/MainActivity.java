@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
     EditText addUsername, addPassword;
@@ -18,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = findViewById(R.id.toolbarLogin);
+        setSupportActionBar(toolbar);
 
         addUsername   = findViewById(R.id.username);
         addPassword = findViewById(R.id.password);
@@ -42,5 +46,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    private void setSupportActionBar(Toolbar toolbar) {
+        getSupportActionBar().setTitle("Login");
+        toolbar.setSubtitle("Silahkan login terlebih dahulu");
     }
 }
