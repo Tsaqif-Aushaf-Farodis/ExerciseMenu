@@ -38,7 +38,7 @@ public class KelilingTrapesium extends AppCompatActivity {
                     double b = Double.parseDouble(et_b.getText().toString());
                     double m = Double.parseDouble(et_m.getText().toString());
                     double keliling = a + b + (m * 2);
-                    tv_HasilKelilingTrapesium.setText("Hasil Keliling Trapesium Dengan Panjang A "+a+", Panjang B "+b+" dan sisi miring "+m+" adalah: "+keliling+"");
+                    tv_HasilKelilingTrapesium.setText("Keliling Trapesium Dengan Panjang A "+a+", Panjang B "+b+" dan sisi miring "+m+" adalah: "+keliling+"");
                 }
             }
         });

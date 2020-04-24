@@ -32,7 +32,7 @@ public class KelilingPersegi extends AppCompatActivity {
                 }else {
                     double sisi = Double.parseDouble(et_sisi.getText().toString());
                     double keliling = 4 * sisi;
-                    tv_HasilKelilingPersegi.setText("Hasil keliling persegi dengan sisi "+sisi+" adalah: "+keliling+"");
+                    tv_HasilKelilingPersegi.setText("Keliling persegi dengan sisi "+sisi+" adalah: "+keliling+"");
                 }
             }
         });

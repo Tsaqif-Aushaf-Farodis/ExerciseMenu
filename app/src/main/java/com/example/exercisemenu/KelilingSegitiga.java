@@ -38,7 +38,7 @@ public class KelilingSegitiga extends AppCompatActivity {
                     double tinggi = Double.parseDouble(et_tinggi.getText().toString());
                     double miring = Double.parseDouble(et_miring.getText().toString());
                     double keliling = alas + tinggi + miring;
-                    tv_HasilKelilingSegitiga.setText("Hasil Keliling Segitiga Dengan Alas "+alas+", tinggi "+tinggi+" dan sisi miring "+miring+" adalah: "+keliling+"");
+                    tv_HasilKelilingSegitiga.setText("Keliling Segitiga Dengan Alas "+alas+", tinggi "+tinggi+" dan sisi miring "+miring+" adalah: "+keliling+"");
                 }
             }
         });

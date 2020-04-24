@@ -35,7 +35,7 @@ public class KelilingPersegiPanjang extends AppCompatActivity {
                     double panjang = Double.parseDouble(et_Panjang.getText().toString());
                     double lebar = Double.parseDouble(et_Lebar.getText().toString());
                     double keliling = 2 * (panjang + lebar);
-                    tv_HasilKelilingPP.setText("Hasil keliling persegi panjang dengan panjang "+panjang+" dan lebar "+lebar+" adalah: "+keliling+"");
+                    tv_HasilKelilingPP.setText("Keliling persegi panjang dengan panjang "+panjang+" dan lebar "+lebar+" adalah: "+keliling+"");
                 }
             }
         });
