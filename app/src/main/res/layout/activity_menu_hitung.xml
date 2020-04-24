@@ -17,66 +17,82 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Menu Hitung Bangun Datar"
+            android:text="Pilih Bangun Datar"
             android:textAlignment="center"
             android:textColor="@color/judul"
             android:textStyle="bold"
+            android:typeface="serif"
             android:textSize="24dp"/>
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginStart="5dp">
+            android:layout_marginTop="30dp">
 
-            <TextView
+            <Button
                 android:id="@+id/tvPersegi"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button"
+                android:gravity="center"
                 android:text="Menghitung Persegi"
                 android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:clickable="true"
-                android:onClick="showMenu"/>
+                android:typeface="serif"/>
 
-            <TextView
+            <Button
                 android:id="@+id/tvLingkaran"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button"
+                android:gravity="center"
                 android:text="Menghitung Lingkaran"
                 android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:clickable="true"
-                android:onClick="showMenu"/>
+                android:typeface="serif"/>
 
-            <TextView
+            <Button
                 android:id="@+id/tvPersegiPanjang"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button"
+                android:gravity="center"
                 android:text="Menghitung Persegi Panjang"
                 android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:clickable="true"
-                android:onClick="showMenu"/>
+                android:typeface="serif"/>
 
-            <TextView
+            <Button
                 android:id="@+id/tvSegitiga"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button"
+                android:gravity="center"
                 android:text="Menghitung Segitiga"
                 android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:clickable="true"
-                android:onClick="showMenu"/>
+                android:typeface="serif"/>
 
-            <TextView
+            <Button
                 android:id="@+id/tvTrapesium"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button"
+                android:gravity="center"
                 android:text="Menghitung Trapesium"
                 android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:clickable="true"
-                android:onClick="showMenu"/>
+                android:typeface="serif"/>
         </TableLayout>
     </LinearLayout>
 
